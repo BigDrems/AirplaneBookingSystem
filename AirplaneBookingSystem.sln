@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirplaneBookingSystem", "AirplaneBookingSystem\AirplaneBookingSystem.csproj", "{C3B2F951-F27D-403F-8E40-2A21235495EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{46BC37F6-D191-4EBE-B72E-FF80E1736BB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8FF3CD24-F3BF-4EFD-9AE5-0301471B9CC4}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3B2F951-F27D-403F-8E40-2A21235495EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3B2F951-F27D-403F-8E40-2A21235495EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3B2F951-F27D-403F-8E40-2A21235495EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3B2F951-F27D-403F-8E40-2A21235495EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46BC37F6-D191-4EBE-B72E-FF80E1736BB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46BC37F6-D191-4EBE-B72E-FF80E1736BB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46BC37F6-D191-4EBE-B72E-FF80E1736BB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46BC37F6-D191-4EBE-B72E-FF80E1736BB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

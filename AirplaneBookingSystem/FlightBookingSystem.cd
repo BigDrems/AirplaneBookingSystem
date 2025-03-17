@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AirplaneBookingSystem.Booking">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAQAAAAAAAAAIAAAAAAAAAIAA=</HashCode>
+      <FileName>class\Booking.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Passenger" />
+      <Property Name="Seat" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AirplaneBookingSystem.FlightBookingSystem">
+    <Position X="3.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAIAFAAAAAAAAIQAAAAAAAA=</HashCode>
+      <FileName>class\FlightBookingSystem.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="seats" />
+      <Field Name="bookings" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="AirplaneBookingSystem.Passenger">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>class\Passenger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirplaneBookingSystem.Seat">
+    <Position X="0.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>class\Seat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirplaneBookingSystem.BookingException" Collapsed="true">
+    <Position X="6.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exception\BookingException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirplaneBookingSystem.SeatIsNotAvailable">
+    <Position X="6.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exception\SeatIsNotAvailable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
